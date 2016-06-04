@@ -51,7 +51,7 @@ class HtslServiceProvider extends ServiceProvider
 			$environment = config('htsl.environment');
 
 			if(is_null($environment) || !trait_exists('\App\Htsl\TExtension'))
-				throw new \Exception('Please publish the vendor via: php artisan vendor:publish');
+				throw new \Exception('Please publish the vendor via: artisan vendor:publish');
 
 			return new class($app) extends Compiler implements CompilerInterface
 			{
