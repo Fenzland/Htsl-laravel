@@ -1,0 +1,22 @@
+{
+    "name": "fenzland/htsl4laravel",
+    "description": "Laravel service provider of Htsl.php",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "fenzland/htsl": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fenzland",
+            "email": "uukoo@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Htsl\\ForLaravel\\": "libs/"
+        }
+    }
+}
