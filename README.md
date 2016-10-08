@@ -5,7 +5,7 @@ Laravel service provider of Htsl.php
 
 I. Install,
 ``` bash
-composer require fenzland/htsl:@dev fenzland/htsl4laravel:@dev
+composer require fenzland/htsl4laravel:~0.1
 ```
 
 II. Then add the provider to your autoloaded service provider list in your config/app.php.
