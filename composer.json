@@ -1,10 +1,10 @@
 {
-    "name": "fenzland/htsl4laravel",
+    "name": "htsl/for-laravel",
     "description": "Laravel service provider of Htsl.php",
     "type": "library",
     "require": {
         "php": ">=7.0",
-        "fenzland/htsl": "@dev",
+        "htsl/htsl": "@dev",
         "illuminate/support": ">=5.0",
         "illuminate/view": ">=5.0"
     },
