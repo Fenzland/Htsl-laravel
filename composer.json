@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": ">=7.0",
-        "fenzland/htsl": "~0.1",
+        "htsl/htsl": "~0.1",
         "illuminate/support": ">=5.0",
         "illuminate/view": ">=5.0"
     },
