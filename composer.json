@@ -1,5 +1,5 @@
 {
-    "name": "fenzland/htsl4laravel",
+    "name": "htsl/htsl4laravel",
     "description": "Laravel service provider of Htsl.php",
     "type": "library",
     "require": {
